@@ -1,36 +1,40 @@
 <html>
 <head>
-    <title>Gallery</title>
+    <title>Gallery - Vaughn Samuel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>
-        <a href="index.html">Home</a> | <a href="gallery.html">Gallery</a> | <a href="blog.html">Blog</a> | <a href="contact.html">Contact</a>
-    </p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-    <h1>Gallery Foto</h1>
-    <p>Kumpulan foto-foto saya:</p>
-    
-    <table border="1">
-        <tr>
-            <td>
-                <img src="foto1.jpeg" width="200">
+    <div class="container">
+        <h1>Gallery Foto</h1>
+        <p>Kumpulan foto-foto saya:</p>
+        
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="foto1.jpeg" alt="Foto Pertama">
                 <p>Foto Pertama</p>
-            </td>
-            <td>
-                <img src="foto2.jpeg" width="200">
+            </div>
+            <div class="gallery-item">
+                <img src="foto2.jpeg" alt="Foto Kedua">
                 <p>Foto Kedua</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="foto3.jpeg" width="200">
+            </div>
+            <div class="gallery-item">
+                <img src="foto3.jpeg" alt="Foto Ketiga">
                 <p>Foto Ketiga</p>
-            </td>
-            <td>
-                <img src="foto4.jpeg" width="200">
+            </div>
+            <div class="gallery-item">
+                <img src="foto4.jpeg" alt="Foto Keempat">
                 <p>Foto Keempat</p>
-            </td>
-        </tr>
-    </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
